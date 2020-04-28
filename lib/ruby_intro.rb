@@ -7,32 +7,32 @@
 
 def sum arr
 	arr.sum
-      	# YOUR CODE HERE
+      	
 end
 
 def max_2_sum arr
 	arr.max(2).sum
 end
-  # YOUR CODE HERE
+ 
 
 # name the objects you're iterating over c 
 def sum_to_n? arr, n
 	arr.combination(2) { |c| return true if c.sum == n }
 	false
 
-  # YOUR CODE HERE
+  
 end
 
 # Part 2
 
 def hello(name)
         'Hello, ' + name
-  # YOUR CODE HERE
+  
 end
 
 def starts_with_consonant? s
         Regexp.new('^[qwrtypsdfghjklzxcvbnm]', Regexp:: IGNORECASE).match?(s)
-  # YOUR CODE HERE
+  
 end
 
 def binary_multiple_of_4? s
@@ -42,7 +42,7 @@ def binary_multiple_of_4? s
         else
                 false
         end
-  # YOUR CODE HERE
+  
 end
 
 # Part 3
@@ -58,5 +58,5 @@ class BookInStock
                 format("$%.2f", @price)
         end
 
-# YOUR CODE HERE
+
 end
